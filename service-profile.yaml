@@ -1,0 +1,14 @@
+service:
+  id: "kor-0020"
+  slug: "radio-equipment-engineer-study-web"
+  appName: "무선설비기사 필기·실기"
+  supportEmail: "june1012june@gmail.com"
+  locales: ["ko"]
+app:
+  androidPackage: "app.mcyj.examprep.kor0020"
+  iosBundleIdentifier: "app.mcyj.examprep.kor0020"
+web:
+  origin: "https://mcyj.github.io"
+  basePath: "/radio-equipment-engineer-study-web/"
+operations:
+  deployment: "github-pages-static"
